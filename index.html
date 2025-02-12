@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GROUP O</title>
+</head>
+<style>
+    body {
+        background-color: #f1f1f1;
+        text-align: center;
+        font-family: Arial, sans-serif;
+
+    }
+
+    h1 {
+        color: #333;
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    #p1 {
+        color: #666;
+        font-size: 16px;
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #form {
+        background-color: #fff;
+        width: 25%;
+        margin: auto;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 1px 10px 10px rgba(56, 22, 22, 0.1);
+        margin-top: 20px;
+    }
+
+    
+
+    #form label {
+        margin-top: 10px;
+    }
+
+    #form input,
+    #form select,
+    #form textarea {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+    .box{
+        border: #666 solid 2px;
+        border-radius: 3px;
+        justify-items: start;
+        box-shadow: 2px 10px 10px #333;
+        
+    }
+    #courses{
+        display: flex;
+        gap: 20px;
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+
+    }
+    #table{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+        border-collapse: collapse;
+        border: #333 2px solid;
+        border-radius: 3px;
+        
+    }
+    td, th{
+        border: 2px solid #333;
+        
+    }
+    #members{
+        
+        background-color: #fff;
+        width: 70%;
+        margin: auto;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 1px 10px 10px #333;
+        flex: 1;
+
+    }
+    .info{
+        background-color: #3b060645;
+        width: 70%;
+        margin: auto;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 1px 10px 10px #333;
+        flex: 1;
+        height: auto;
+
+    }
+    #contact{
+        display: flex;
+        gap: 20px;
+        width: 70%;
+        margin: auto;
+        margin-top: 20px;
+    }
+   
+</style>
+
+<body>
+    <h1><b>GROUP O WEBSITE</b></h1>
+    <p id="p1">Welcome to the Group O class website! Here you will find all the resources, assignments, and updates
+        related to our class. Stay tuned for more information and feel free to explore the site.</p>
+    <div id="form">
+        <h4>Please fill in the form 😊</h4>
+        <form>
+            <label>username</label>
+            <input type="text" name="username" required placeholder="johndoe">
+            <br>
+            <label>email</label>
+            <input type="email" name="email" required placeholder="jondoe@gmai.com">
+            <br>
+            <label>password</label>
+            <input type="password" name="password" required>
+            <br>
+            <label>Date of birth</label>
+            <input type="date" name="dob" required>
+            <br>
+            <label>Course</label>
+            <select name="course" required>
+                <option value="web">Software Enginnering</option>
+                <option value="app">Computer Science</option>
+                <option value="ai">Information Tech</option>
+                <option value="ml">Libarary Stuff</option>
+            </select>
+            <br>
+            <br>
+
+            <textarea name="comment" required placeholder="Please leave a comment"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+            <br>
+            <input type="reset" value="reset">
+
+            
+        </form> 
+        
+    </div>
+    <br>
+    <div id="courses">
+        <div class="box" style="background-color: #34a6bd53;">
+            <figure>
+                <img src="math.avif" alt="Numerical Methods" width="25%">
+            <figcaption> Numerical Methods</figcaption>
+            </figure>
+            
+        </div>
+        <div class="box" style="background-color: #3d985f53;" >
+            <figure>
+                <img src="comp.avif" alt="Machine Learning" width="25%">
+             <figcaption> Machine Learning</figcaption> 
+            </figure>
+            
+        </div>
+        <div class="box" style="background-color: #9e3b8953;">
+            <figure>
+                <img src="web.avif" alt="Artificial Intelligence" width="25%">
+            <figcaption> Artificial Intelligence</figcaption>
+            
+        </div>
+    </div>
+    <br>
+    <div>
+        <h3>Our Video</h3>
+        
+        <video width="320" height="240" controls autoplay muted>
+            <source src="Babies.mp4" type="video/mp4">
+        </video>  
+    </div>
+    <br>
+
+    <div>
+        <h3>Our Location</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=MAP_DATA" width="600" height="400" style="border:none;"></iframe>
+      
+    </div>
+    <br>
+
+    <div id="members">
+        <table id="table">
+            <h2>Our Members</h2>
+            <tr>
+                <th>Name</th>
+                <th>Registration</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>Aburek Emmanuel</td>
+                <td>24/U/02614/PS</td>
+                <td>rexal2024@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Akatukunda P. Praise</td>
+                <td>24/U/7646</td>
+                <td>app@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Otai Joseph</td>
+                <td>24/U/27693</td>
+                <td>oj@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Kibenge Victor</td>
+                <td>24/U/48795</td>
+                <td>kv@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Agaba Doreck</td>
+                <td>24/U/87895</td>
+                <td>ad@gmail.com</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+
+    <div id="contact">
+        <div class="info">
+            <h3>For more information</h3>
+            <ul style="list-style-type: none;">
+                <li>
+                    <a href="https://www.mak.ac.ug" target="_blank">
+                       Makarere University 
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.google.com" target="_blank">
+                       Visit our Ticketing website
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>   
+            <footer>
+                <p>&copy; 2025 Group O | All Rights Reserved</p>
+            </footer>
+            
+        
+   
+
+</body>
+
+</html>
