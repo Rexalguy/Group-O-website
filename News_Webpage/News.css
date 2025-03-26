@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.heading{
+    margin: 0px 0px 30px 0px;
+    background-color: rgb(35, 73, 60);
+    color: whitesmoke;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em ;
+    text-align: center;
+}
+    
+    
+ 
+
+section{
+    background-color: rgb(235, 232, 232);
+}
+
+.container{
+    margin: -30px;
+    padding: 40px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card {
+    margin: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 400px;
+    max-width: 60vh;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+.overlay {
+        position: absolute;
+        width: 100%;
+        padding: 10px;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.877), transparent);
+        color: white;
+    } 
+
+#card-1{
+    background: url('images/academics.jpg') center/cover no-repeat;
+}
+
+#card-2{
+    background: url('images/sports.jpg') center/cover no-repeat;
+}
+#card-3{
+    background: url('images/leadership.jpg') center/cover no-repeat;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.overlay h3{
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(241, 237, 237);
+    
+}
+
+.overlay p{
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+
+.card p {
+    height: 60px;
+    max-height: 70px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+
+.card button{
+    border: 0px;
+    text-decoration: none;
+    background-color: rgb(35, 73, 60);
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
