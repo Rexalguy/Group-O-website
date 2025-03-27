@@ -6,7 +6,7 @@
 }
 
 .heading{
-    margin: 0px 0px 30px 0px;
+    margin: 0 auto;
     background-color: rgb(35, 73, 60);
     color: whitesmoke;
     padding: 10px;
@@ -18,12 +18,13 @@
     
  
 
-section{
+#Newbulletins{
     background-color: rgb(235, 232, 232);
+    margin-bottom: 2px;
 }
 
 .container{
-    margin: -30px;
+    margin: 0 auto;
     padding: 40px ;
     display: flex;
     justify-content: center;
@@ -60,16 +61,22 @@ section{
 
     } 
 
-#card-1{
+#card-1 {
     background: url('images/academics.jpg') center/cover no-repeat;
+    
 }
 
-#card-2{
+#card-2 {
     background: url('images/sports.jpg') center/cover no-repeat;
+   
 }
-#card-3{
+
+#card-3 {
     background: url('images/leadership.jpg') center/cover no-repeat;
+    
 }
+
+
 
 .card:hover {
     transform: scale(1.1);
@@ -106,14 +113,169 @@ section{
     z-index: 1;
     
 }
+.EventCalenderandForm{
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+}
+
+
+.eventContainer{
+    width: 60%;
+   max-width: 800px;
+   margin: 20px auto;
+   box-shadow: 0 5px 9px rgba(0, 0, 0, 0.5);
+   padding: 10px 30px;
+   height: 400px;
+   overflow: scroll;
+   
+}
+
+.eventContainer .title{
+    font-size: 2.0em;
+    color: rgb(35, 73, 60);
+    margin-bottom: 5px;  
+}
+
+.eventContainer hr{
+        width: 80px;
+        margin-bottom: 8px;
+        height: 5px;
+        border: none;
+        background-color: rgb(35, 73, 60);
+        border-radius: 5px;
+}
+
+
+.eventContainer h1{
+    font-size: 35px;
+    text-align: center;
+    color: rgb(147, 162, 167);
+    
+}
+
+.eventContainer .event{
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+
+.eventContainer .event .event-left{
+    width: 30%;
+    background-color: rgb(35, 73, 60);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(241, 239, 239);
+    padding: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+.eventContainer .event .event-left .date{
+    font-size: 2.5em;
+}
+
+.eventContainer .event .event-left .month{
+    font-family: 1.5em;
+    font-weight: bolder;
+}
+
+
+.eventContainer .event .event-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px ;
+}
+
+.eventContainer .event .event-right h3{
+    font-size: 2em;
+    color: cadetblue;
+    margin-bottom: 20px;
+    
+}
+
+.eventContainer .event .event-right .event-description{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0px 5px;
+    margin: px 0px;
+}
+
+.eventContainer .event .event-right .event-time{
+    background-color: rgb(35, 73, 60);
+    font-weight: bolder;
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+    width: 80px;
+    margin-top: 20px;
+    
+}
+
+.formContainer{
+    padding : 0px 20px;
+    background-color:whitesmoke;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 40%;
+    margin-top: -30px;
+}
+
+.formContainer .title h2{
+    font-size: 2.1em;
+    color: rgb(35, 73, 60);
+    margin-bottom: 8px;
+}
+
+.formContainer .title hr{
+    width: 80px;
+    margin-bottom: 8px;
+    height: 5px;
+    border: none;
+    background-color: rgb(35, 73, 60);
+    border-radius: 5px;
+}
+
+.formContainer .input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.formContainer .input .form-input{
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+}
+
+.formContainer .input textarea{
+    resize: none;
+    width: 90%;
+    height: 140px;
+}
 
 
 
-
-
-
-
-
+.formContainer .input button{
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    background: linear-gradient(270deg,rgb(35, 73, 60),cadetblue);
+    color: whitesmoke;
+}
 
 
 
