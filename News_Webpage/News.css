@@ -43,6 +43,7 @@ section{
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
     
 }
 
@@ -52,7 +53,11 @@ section{
         width: 100%;
         padding: 10px;
         background: linear-gradient(to top, rgba(0, 0, 0, 0.877), transparent);
+        z-index: 1;
         color: white;
+        font-size: 12px;
+        text-align: left;
+
     } 
 
 #card-1{
@@ -69,6 +74,8 @@ section{
 .card:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    
 }
 
 .overlay h3{
@@ -78,20 +85,16 @@ section{
     
 }
 
-.overlay p{
-    font-size: 12px;
+.description{
+    position: relative;
+    height: 60px;
+    max-height: 80px;
     overflow: hidden;
-    text-overflow: ellipsis;
+    padding: 2px;
     
 }
 
-.card p {
-    height: 60px;
-    max-height: 70px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    
-}
+
 
 .card button{
     border: 0px;
@@ -100,7 +103,12 @@ section{
     color: white;
     padding: 5px;
     cursor: pointer;
+    z-index: 1;
+    
 }
+
+
+
 
 
 
